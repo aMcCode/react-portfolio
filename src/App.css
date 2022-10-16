@@ -1,16 +1,22 @@
-#root {
-    height: 100%;
-    --borderColor: rgb(157, 219, 157);
-    --boxShadowColor: rgba(157, 219, 157,.5);
-    --mixColor: rgba(216, 216, 19, .25);
-    --mainFontColor: rgb(133, 79, 21);
-    --backGroundColor: rgba(157, 219, 157, .75);
-    --linkVisitedColor: rgb(180, 158, 127);
-    --blackBackground: rgb(0 ,0 , 0);
-    --softBoneWhite: rgb(249, 246, 238, .5);
-  }
+:root {
+  --borderColor: rgb(157, 219, 157);
+  --boxShadowColor: rgba(157, 219, 157,.5);
+  --mixColor: rgba(216, 216, 19, .25);
+  --mainFontColor: rgb(133, 79, 21);
+  --backGroundColor: rgba(157, 219, 157, .75);
+  --linkVisitedColor: rgb(180, 158, 127);
+  --blackBackground: rgb(0 ,0 , 0);
+  --softBoneWhite: rgba(249, 246, 238, 1);
+  --NasturcianFlower: #e84118;
+};
 
-   body {
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+  body {
+    width: 100%;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -83,10 +89,23 @@
   border: 3px solid black;
 }
 
+.heroDescriptions {
+  color: var(--NasturcianFlower);
+  font-style: italic;
+  font-weight: bold;
+}
 
+.heroPhotoCreditLink {
+  color: black;
+}
 
 .contact-btn {
   border: 3px solid black;
   margin-top: 10px;
   width: 150px;
 }
+
+/* .container {
+  max-width: 100%;
+
+} */

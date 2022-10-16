@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap'
 import '../index.css'
-import headShot from '../assets/portfolio_imgs/headshot.jpg'
+import headShot from '../assets/portfolio_imgs/headshot_pinkGrey.jpg'
 import { Container, Row, Col, Image } from "react-bootstrap";
 
 const AboutMe = () => {
