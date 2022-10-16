@@ -21,9 +21,9 @@
   }
 
 
-  .navbar {
+  /* .navbar {
     background-color: var(--blackBackground);
-  }
+  } */
 
   #basic-nav-dropdown {
     color: white;
@@ -82,6 +82,8 @@
 .hero-btn {
   border: 3px solid black;
 }
+
+
 
 .contact-btn {
   border: 3px solid black;
