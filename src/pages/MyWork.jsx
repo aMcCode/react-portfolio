@@ -14,9 +14,14 @@ import HandMeUp from  '../assets/portfolio_imgs/hmu-hero.png'
 const MyWork = () => {
     return (
         <Container fluid="md">
+        <Row className="mt-5">
+            <Col></Col>
+            <Col><h1 className="pb-3" style={{ borderBottom: "2px solid #e84118"}}>My Work</h1></Col>
+            <Col></Col>
+        </Row>
           <Row>
             <Col md={4}>
-                <Card className="mt-5 shadow-lg p-2" style={{ height: "50rem" }}>
+                <Card className="mt-4 shadow-lg p-2" style={{ height: "50rem" }}>
                 <Card.Img variant="top" style={{ border: "2px solid #dcdde1", height: "20rem" }} src={HandMeUp} />
                 <Card.Body style={{ marginLeft: 20, marginRight: 20 }}>
                 <Card.Title className="pt-3 mt-3" style={{ borderTop: "2px solid #e84118", marginLeft: 20, marginRight: 20 }}>Image Title</Card.Title>
@@ -27,7 +32,7 @@ const MyWork = () => {
                 </Card>
             </Col>
             <Col md={4}>
-                <Card className="mt-5 shadow-lg p-2" style={{ height: "50rem" }}>
+                <Card className="mt-4 shadow-lg p-2" style={{ height: "50rem" }}>
                     <Card.Img variant="top" style={{ border: "2px solid #dcdde1", height: "20rem" }} src={WeatherApp} />
                     <Card.Body>
                     <Card.Title className="pt-3 mt-3" style={{ borderTop: "2px solid #e84118", marginLeft: 20, marginRight: 20 }}>Image Title</Card.Title>
@@ -38,7 +43,7 @@ const MyWork = () => {
                 </Card>
             </Col>
             <Col md={4}>
-                <Card className="mt-5 shadow-lg p-2" style={{ height: "50rem" }}>
+                <Card className="mt-4 shadow-lg p-2" style={{ height: "50rem" }}>
                     <Card.Img variant="top" style={{ height: "20rem" }}src={EZstream} />
                     <Card.Body>
                     <Card.Title className="pt-3 mt-3" style={{ borderTop: "2px solid #e84118", marginLeft: 20, marginRight: 20 }}>Image Title</Card.Title>
