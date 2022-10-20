@@ -6,19 +6,19 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 const AboutMe = () => {
 return(
-    <Container className="mt-5 mb-5 p-0">
+    <Container className="mt-5 mb-5 pt-5">
         <Row className="mt-5">
             <Col sm={2}></Col>
             <Col sm={3}><h1 className="pb-3" style={{ borderBottom: "2px solid #e84118"}}>About<br/>Alicia McNeil</h1></Col>
             <Col></Col>
         </Row>
-        <Row>
+        <Row className="justify-content-left">
         <Col className="pt-3" sm={7}>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien nec sagittis aliquam malesuada. Integer quis auctor elit sed vulputate mi sit. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Nibh tellus molestie nunc non blandit massa enim. Lorem donec massa sapien faucibus et molestie ac. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Nunc sed velit dignissim sodales. Mauris a diam maecenas sed. At urna condimentum mattis pellentesque id nibh tortor. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque.</p>
+            <p className="align-left">I am an experienced clinical data and systems programmer. Over the past 10 years I have become highly proficient as a .NET/C# and Python programmer. In my programming roles within the clinical trial industry, I have created applications to support data analytics reporting, database builds and system integrations via webservice APIs. Recently, I've become intersted in web development, both front-end and back-end. I'm quite facinated with it, actually! I love the creativity and collaboration involved in bringing a web-site to life.</p>
 
-            <p>Lectus quam id leo in vitae turpis. Ac placerat vestibulum lectus mauris ultrices eros in. Gravida neque convallis a cras semper auctor neque vitae. Sit amet luctus venenatis lectus magna fringilla urna. Id semper risus in hendrerit. Bibendum arcu vitae elementum curabitur vitae nunc. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Orci a scelerisque purus semper eget duis at. Libero id faucibus nisl tincidunt eget nullam non nisi est.</p>
+            <p className="align-left">I've resolved to learn as much as I can about web development. I recently completed a full-stack web development bootcamp offered through UNC-Chapel Hill. I now have experience with Javascript, JQuery, React, GraphQL, SQL, MySQL, MongoDB, Node.js, Express.js, Bootstrap and MVC using Handlebars.js. </p>
 
-            <p>Nibh ipsum consequat nisl vel pretium lectus quam. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Proin sed libero enim sed faucibus turpis in eu mi. Amet commodo nulla facilisi nullam vehicula ipsum. Eu mi bibendum neque egestas congue quisque egestas. Tristique risus nec feugiat in fermentum posuere urna. Dolor morbi non arcu risus quis varius quam quisque id. Amet facilisis magna etiam tempor orci eu. Potenti nullam ac tortor vitae purus. Amet facilisis magna etiam tempor orci eu lobortis elementum. Faucibus scelerisque eleifend donec pretium vulputate.</p>
+            <p className="align-left">I'm looking for opportunities, including volunteer opportunities, to become more active in the web development space.</p>
         </Col>
         <Col sm={5}>
             <Image align="center" rounded src={headShot} width={300} height={300} />

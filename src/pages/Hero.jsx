@@ -37,7 +37,7 @@ return(
     </Row>
     <Row style={{ height: 145}}></Row>
     <Row>
-      <Col sm={2}>Photo by <a className="heroPhotoCreditLink" href="https://www.pexels.com/photo/white-painted-wall-1939485/"> Henry & Co.</a>
+      <Col sm={2}>Background image by <a className="heroPhotoCreditLink" href="https://www.pexels.com/photo/white-painted-wall-1939485/"> Henry & Co.</a>
       </Col>
       </Row>
   </Container>
